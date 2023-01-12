@@ -1,4 +1,14 @@
-let parrafoinicial = document.getElementById("parrafoinicial")
+let parrafoinicial = document.getElementById("parrafoinicial");
+
+console.log(parrafoInicial);
+
+parrafoInicial.onclick = function() {
+    action()
+}
+
+function action(){
+    parrafoInicial.styles.color = "red"
+};
 
 /* TIPOS DE DATOS 
 var -> Modificable, scope global - NO SE RECOMIENDA
@@ -22,12 +32,3 @@ CASE (CAPITAL CASE) - Constantes
 basicamente es como acomodo mi combinación de mayusculas y minusculas para que se entienda mejor
 */
 
-console.log(parrafoInicial)
-
-parrafoInicial.onclick = function() {
-    action()
-}
-
-function action(){
-
-}
