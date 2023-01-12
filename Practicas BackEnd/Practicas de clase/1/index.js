@@ -1,4 +1,9 @@
-parrafoinicial = document.getElementById("parrafoinicial")
+let parrafoinicial = document.getElementById("parrafoinicial")
+
+/* TIPOS DE DATOS 
+var -> Modificable, scope global - NO SE RECOMIENDA
+let -> Modificable, scope local o limitado - RECOMENDADOUSAR
+const -> CONSTANTE , no modificable - Scope global
 
 /*
 CASES
@@ -16,3 +21,13 @@ CASE (CAPITAL CASE) - Constantes
 
 basicamente es como acomodo mi combinación de mayusculas y minusculas para que se entienda mejor
 */
+
+console.log(parrafoInicial)
+
+parrafoInicial.onclick = function() {
+    action()
+}
+
+function action(){
+
+}
