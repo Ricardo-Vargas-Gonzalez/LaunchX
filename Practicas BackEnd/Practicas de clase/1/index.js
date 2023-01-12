@@ -1,13 +1,12 @@
-let parrafoinicial = document.getElementById("parrafoinicial");
+let parrafoinicial = document.getElementById("parrafoInicial").onclick = function() {
+    action()
+};
 
 console.log(parrafoInicial);
 
-parrafoInicial.onclick = function() {
-    action()
-}
 
 function action(){
-    parrafoInicial.styles.color = "red"
+    alert("Hello You")
 };
 
 /* TIPOS DE DATOS 
