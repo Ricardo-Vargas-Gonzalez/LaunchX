@@ -1,13 +1,22 @@
-let parrafoinicial = document.getElementById("parrafoInicial").onclick = function() {
-    action()
-};
+const parrafoinicial = document.getElementById("parrafoInicial");
 
 console.log(parrafoInicial);
 
+parrafoInicial.onclick = function() {
+    changerandomcolor()
+}
 
-function action(){
-    alert("Hello You")
-};
+function changerandomcolor(){
+
+    const colors = [
+        "red",
+        "blue",
+        "black",
+        "cyan"
+    ];
+    parrafoInicial.style.color = colors[Math.floor(Math.random() * colors.length)];
+
+}
 
 /* TIPOS DE DATOS 
 var -> Modificable, scope global - NO SE RECOMIENDA
